@@ -59,7 +59,7 @@ class MyPortfolio:
 
     def calculate_weights(self):
         # Get the assets by excluding the specified column
-        assets = self.price.columns[self.price.columns != self.exclude]
+        # assets = self.price.columns[self.price.columns != self.exclude]
 
         # Calculate the portfolio weights
         self.portfolio_weights = pd.DataFrame(
