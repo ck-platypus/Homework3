@@ -9,6 +9,7 @@ import quantstats as qs
 import gurobipy as gp
 import argparse
 import warnings
+import scipy.stats
 
 """
 Project Setup
